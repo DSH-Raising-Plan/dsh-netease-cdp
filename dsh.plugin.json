@@ -1,7 +1,7 @@
 ﻿{
   "name": "dsh-netease-cdp",
   "description": "DeepSeek Harness 网易云插件：经 CDP 驱动桌面客户端（不碰 API、不需登录）",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "entry": {
     "name": "dsh-netease-cdp",
     "inject": ["tools"]

@@ -134,3 +134,13 @@ export const NEXT_DOM_JS = `
   return false;
 })()
 `;
+
+export function navigateHashBody(hashPath) {
+  const h = JSON.stringify(hashPath);
+  return (
+    `var h=${h};` +
+    "if(!h.startsWith('#'))h='#/'+h.replace(/^\\/+/, '');" +
+    'try{if(window.location.hash!==h)window.location.hash=h;}catch(e){}' +
+    'return window.location.hash||h;'
+  );
+}

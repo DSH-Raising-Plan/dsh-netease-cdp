@@ -112,6 +112,8 @@ export async function debuggerTarget(cfg) {
   return target;
 }
 
+export { wrap } from './js.js';
+
 export async function evaluate(expression, cfg = defaultConfig(), { timeout = null, msgId = 1 } = {}) {
   const limit = Number(timeout ?? cfg.timeout);
   const target = await debuggerTarget(cfg);

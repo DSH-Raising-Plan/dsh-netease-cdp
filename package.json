@@ -1,7 +1,7 @@
 ﻿{
   "name": "dsh-netease-cdp",
-  "version": "0.1.0",
-  "description": "DeepSeek Harness 网易云插件：经 CDP 驱动桌面客户端（不碰 API、不需登录）",
+  "version": "0.2.0",
+  "description": "DeepSeek Harness 网易云点歌插件：CDP 驱动桌面客户端 + 关键词搜索/插播（不碰私有 API 登录）",
   "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "netease", "cdp", "music"],
   "homepage": "https://github.com/canyueY/dsh-netease-cdp#readme",
   "bugs": { "url": "https://github.com/canyueY/dsh-netease-cdp/issues" },
@@ -16,6 +16,8 @@
   "exports": {
     ".": "./src/index.js",
     "./client": "./src/client.js",
+    "./search": "./src/search.js",
+    "./discover": "./src/discover.js",
     "./tool-spec": "./src/tool-spec.js"
   },
   "files": [
@@ -30,7 +32,7 @@
   "engines": { "node": ">=20" },
   "scripts": {
     "test": "node --test",
-    "check": "node --check src/index.js && node --check src/client.js && node --check src/js.js && node --check src/tool-spec.js"
+    "check": "node --check src/index.js && node --check src/client.js && node --check src/js.js && node --check src/search.js && node --check src/discover.js && node --check src/tool-spec.js"
   },
   "dependencies": {
     "ws": "^8.18.0"
