@@ -1,7 +1,7 @@
-{
+﻿{
   "name": "dsh-netease-cdp",
   "version": "0.1.0",
-  "description": "Control the NetEase Cloud Music desktop client via Chrome DevTools Protocol — DeepSeek Harness tools.",
+  "description": "DeepSeek Harness 网易云插件：经 CDP 驱动桌面客户端（不碰 API、不需登录）",
   "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "netease", "cdp", "music"],
   "homepage": "https://github.com/canyueY/dsh-netease-cdp#readme",
   "bugs": { "url": "https://github.com/canyueY/dsh-netease-cdp/issues" },
