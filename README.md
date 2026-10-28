@@ -6,7 +6,7 @@ CDP 控制的是你**已经登录**的客户端窗口（会员曲库 / 私人雷
 
 > 社区插件，与 DeepSeek / 网易云官方无关。  
 > 移植自 [`canyueY/netease-cdp`](https://github.com/canyueY/netease-cdp)。  
-> 英文简版：[README.en.md](./README.en.md)
+> English: [README.en.md](./README.en.md)
 
 ## 为什么用 CDP
 
