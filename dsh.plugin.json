@@ -1,0 +1,9 @@
+{
+  "name": "dsh-netease-cdp",
+  "description": "Drive NetEase Cloud Music desktop client via CDP (no HTTP API, uses your logged-in session).",
+  "version": "0.1.0",
+  "entry": {
+    "name": "dsh-netease-cdp",
+    "inject": ["tools"]
+  }
+}
